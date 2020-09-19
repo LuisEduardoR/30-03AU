@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb9745b935cbc3f4fab40bd76300336d, type: 3}
+  m_Name: nukeLauncher
+  m_EditorClassIdentifier: 
+  mainWeapon: 0
+  displayName: "Lan\xE7ador de M\xEDsseis Nucleares"
+  idName: nukeLauncher
+  cost: 0
+  ammoCost: 500
+  fireKey: l
+  weaponObject: {fileID: 1568338115223798, guid: d69c06354d162f948a86684e7ceaf253,
+    type: 2}
+  position: {x: 0, y: 0, z: 0}
+  rotation: {x: 0, y: 0, z: 0}
+  ammoName: nuke
+  defaultAmmo: 0
+  _ui:
+    inGameUISprite: {fileID: 21300002, guid: be8fc8cc87caf3a43b50cc70bcc604ea, type: 3}
+    storeUISprite: {fileID: 21300002, guid: be8fc8cc87caf3a43b50cc70bcc604ea, type: 3}
+    ammoUISprite: {fileID: 21300002, guid: be8fc8cc87caf3a43b50cc70bcc604ea, type: 3}
+  displayInfo:
+    damage: 125
+    delay: 2.5
+    projectileAmount: 1

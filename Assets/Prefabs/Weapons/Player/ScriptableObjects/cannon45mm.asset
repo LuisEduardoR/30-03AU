@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb9745b935cbc3f4fab40bd76300336d, type: 3}
+  m_Name: cannon45mm
+  m_EditorClassIdentifier: 
+  mainWeapon: 1
+  displayName: "Canh\xE3o 45mm"
+  idName: cannon45mm
+  cost: 1120
+  fireKey: space
+  weaponObject: {fileID: 1871077526680958, guid: 68d121496e6f7ea40a4e57ef25b2f464,
+    type: 2}
+  position: {x: 0, y: 0.45, z: 0}
+  rotation: {x: 0, y: 0, z: 0}
+  ammoName: none
+  defaultAmmo: 0
+  _ui:
+    inGameUISprite: {fileID: 21300002, guid: 0e22defa92673fe448c21fcebcf33f3e, type: 3}
+    storeUISprite: {fileID: 21300002, guid: 0e22defa92673fe448c21fcebcf33f3e, type: 3}
+  displayInfo:
+    damage: 8
+    delay: 0.1428571
+    projectileAmount: 1

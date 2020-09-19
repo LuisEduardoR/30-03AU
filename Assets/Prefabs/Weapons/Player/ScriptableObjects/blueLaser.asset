@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb9745b935cbc3f4fab40bd76300336d, type: 3}
+  m_Name: blueLaser
+  m_EditorClassIdentifier: 
+  mainWeapon: 1
+  displayName: Laser Azul
+  idName: blueLaser
+  cost: 2400
+  fireKey: space
+  weaponObject: {fileID: 1351792961262990, guid: ba322a3fd7c6a3441aa6d65356a281ce,
+    type: 2}
+  position: {x: 0, y: 0.05, z: 0}
+  rotation: {x: 0, y: 0, z: 0}
+  ammoName: none
+  defaultAmmo: 0
+  _ui:
+    inGameUISprite: {fileID: 21300002, guid: 8159fe5a6d4ba5247aa1554cb4a168f8, type: 3}
+    storeUISprite: {fileID: 21300002, guid: 8159fe5a6d4ba5247aa1554cb4a168f8, type: 3}
+  displayInfo:
+    damage: 4
+    delay: 0.05
+    projectileAmount: 1
